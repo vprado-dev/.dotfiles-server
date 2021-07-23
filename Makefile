@@ -3,3 +3,6 @@ packages:
 	./.scripts/install_paru
 	./.scripts/install_packages
 	./.scripts/post_install
+.PHONY: zsh
+zsh:
+	stow --no-folding -t ~ zsh
