@@ -6,3 +6,5 @@ packages:
 .PHONY: zsh
 zsh:
 	stow --no-folding -t ~ zsh
+.PHONY: install
+install: packages zsh
